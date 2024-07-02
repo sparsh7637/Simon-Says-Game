@@ -8,7 +8,7 @@ let h3=document.querySelector('h3');
 let smax=0;
 let sco=document.querySelector('.hscore');
 
-document.addEventListener('click',function(){
+document.addEventListener('keypress',function(){
     if(started==false){
         started=true;
         levelup();
