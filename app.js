@@ -5,7 +5,7 @@ let temp=['yellow','green','purple','red'];
 let started=false;
 let level=0;
 let h3=document.querySelector('h3');
-let smax=0;
+let smax=10;
 let sco=document.querySelector('.hscore');
 
 document.addEventListener('keypress',function(){
